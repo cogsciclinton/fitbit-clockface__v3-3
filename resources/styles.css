@@ -1,0 +1,55 @@
+
+.large-value {
+  font-family: Colfax-Black;
+  text-anchor: middle;
+  font-size: 33;
+  fill: #94736e;
+}
+
+.updated {
+  visibility: hidden;
+  font-family: Colfax-Bold;
+  text-anchor: middle;
+  font-size: 30;
+  fill: #8B0000;
+}
+
+#clockNumber-12 {
+  font-size: 58;
+  font-family: Colfax-Black;
+  text-length: 34;
+  text-anchor: middle;
+  x: 50%;
+  y: 58;
+  fill: #221615;
+}
+
+#clockNumber-3 {
+  font-size: 62;
+  font-family: Colfax-Black;
+  text-length: 34;
+  text-anchor: middle;
+  x: 262;
+  y: 50%+26;
+  fill: #221615;
+}
+
+#clockNumber-6 {
+  font-size: 62;
+  font-family: Colfax-Black;
+  text-length: 34;
+  text-anchor: middle;
+  x: 50%;
+  y: 286;
+  fill: #221615;
+}
+
+#clockNumber-9 {
+  font-size: 62;
+  font-family: Colfax-Black;
+  text-length: 34;
+  text-anchor: middle;
+  x: 38;
+  y: 50%+26;
+  fill: #221615;
+}

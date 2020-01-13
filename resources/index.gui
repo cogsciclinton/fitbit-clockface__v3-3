@@ -1,0 +1,56 @@
+<svg class="background" width="300" height="300">
+  
+  <!-- CLOCKFACE CIRCULAR SHAPES -->
+  <arc x="0%" y="0%" width="300" height="300" fill="#6c4743"
+       arc-width="300" start-angle="0" sweep-angle="360" />
+  <!-- <circle cx="50%" cy="50%" r="150" fill="#3c2a28" /> -->
+  <arc x="10" y="10" width="280" height="280" fill="#94736e"
+       arc-width="50" start-angle="0" sweep-angle="360" />
+  
+  <arc x="0" y="0" width="300" height="300" fill="#593a37"
+       arc-width="3" start-angle="0" sweep-angle="360" />
+  <arc x="8" y="8" width="284" height="284" fill="#221615"
+       arc-width="3" start-angle="0" sweep-angle="360" />
+  
+  <!-- <circle cx="50%" cy="50%" r="140" fill="#94736e" /> -->
+  <circle cx="50%" cy="50%" r="90" fill="#221615" />
+  <circle cx="50%" cy="50%" r="84" fill="#000000" />
+  
+  <!-- BURST pattern -->
+  <image x="65" y="65" width="170" height="170" href="bg-burst-05.png" />
+    
+  <!-- CLOCKFACE LABELS - NUMBERS -->
+  <text id="clockNumber-12">12</text>
+  <text id="clockNumber-3">3</text>
+  <text id="clockNumber-6">6</text>
+  <text id="clockNumber-9">9</text>
+    
+    <!-- HEART RATE -->
+  <text id="hrm" x="118" y="130" class="large-value">42</text>
+  <text id="updated" x="0" y="82%" class="updated">now!</text>
+  
+  
+      <!-- ACTIVE MINUTES -->
+  <text id="activeMin" x="178" y="130" class="large-value">42</text>
+
+  
+  
+  <!-- CLOCK HANDS -->
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="5" height="113" fill="#aa5950" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="8" height="89" fill="#f7dfdd" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="3" height="144" fill="#cf8b84" />
+  </g>
+  <circle cx="50%" cy="50%" r="10" fill="#444444" />
+  
+  <!-- HORIZONTAL GUIDE -->
+<!--   <line x1="50%" y1="0%" x2="50%" y2="100%" fill="sienna" /> -->
+  
+  <!-- VERICAL GUIDE -->
+<!--   <line x1="0%" y1="50%" x2="100%" y2="50%" fill="sienna" /> -->
+  
+</svg>

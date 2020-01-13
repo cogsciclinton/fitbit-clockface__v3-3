@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "da811aed-b23c-4ef3-8e00-6d28cd046aa4",
+    "appType": "app",
+    "appDisplayName": "sdk-heart-meter",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "sdk-heart-meter"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
